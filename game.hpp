@@ -62,7 +62,6 @@ class Game
 
         Mix_Chunk               *water_splash;
         Mix_Chunk               *explosion;
-        Mix_Chunk               *missile_launch;
         Mix_Chunk               *good_beep;
         Mix_Chunk               *denide_action;
         Mix_Music               *background_music;

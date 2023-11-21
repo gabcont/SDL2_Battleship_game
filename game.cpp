@@ -74,8 +74,6 @@ Game::Game(void)
 
         explosion = load_sound("assets\\Sfx\\explosion_1.wav");
 
-        missile_launch = load_sound("assets\\Sfx\\missile_launch.wav");
-
         good_beep = load_sound("assets\\Sfx\\good_beep.wav");
 
         denide_action = load_sound("assets\\Sfx\\bad_beep.wav");
@@ -117,12 +115,10 @@ Game::~Game(void)
 
     Mix_FreeChunk(water_splash);
     Mix_FreeChunk(explosion);
-    Mix_FreeChunk(missile_launch);
     Mix_FreeChunk(good_beep);
     Mix_FreeChunk(denide_action);
     water_splash = NULL;
     explosion = NULL;
-    missile_launch = NULL;
     good_beep = NULL;
     denide_action = NULL;
 
