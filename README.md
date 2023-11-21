@@ -1,4 +1,5 @@
 # SDL2_Battleship_game
+![Game Screenshot](https://i.imgur.com/zQiezZZ.png)
 A battleship game made in c++ using SDL2 for homework. I had to finish it in a hurry, so there is some spaghetti code here and there. Maybe I will clean it and remove dead code, maybe.
 
 # Dependencies
